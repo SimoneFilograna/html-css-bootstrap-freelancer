@@ -1,3 +1,10 @@
+:root{
+    --bs-primary: rgb(26, 188, 156);
+    --bs-primary-rgb: 26, 188, 156;
+}
+
+
+
 .box{
     width: 100%;
     min-height: 100px;
