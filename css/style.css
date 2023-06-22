@@ -64,10 +64,16 @@ section{
 }
 
 .low-size-footer{
-    font-size: 12px;
+    font-size: 1rem;
 }
 
-
-
-
-/* potrei fare una classe dedicata visto che text-center si ripete più volte e transform-uppercase */
+.icon-border-pers{
+    width: 40px;
+    aspect-ratio: 1/1;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    pad: 1rem;
+}
