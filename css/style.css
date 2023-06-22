@@ -77,10 +77,6 @@ section{
     border-radius: 50%;
 }
 
-.icon-border-pers a{
-    color: white;
-}
-
 a{
     color: var(--bs-primary);
     text-decoration: none;
