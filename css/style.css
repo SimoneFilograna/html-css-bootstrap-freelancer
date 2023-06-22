@@ -3,8 +3,6 @@
     --bs-primary-rgb: 26, 188, 156;
 }
 
-
-
 .box{
     width: 100%;
     min-height: 100px;
@@ -12,13 +10,26 @@
     border: 1px solid black;
 }
 
-img{
-    width: 300px;
-    height: 100px;
-    background-color: rgb(0, 255, 0);
-    border: 1px solid black;
-}
-
 section{
     padding: 60px 0;
 }
+
+.hero-image{
+    width: 300px;
+}
+
+.text-rule{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.line{
+    width: 10%;
+    height: 3px;
+}
+
+.star{
+    font-size: 2rem;
+}
+
+/* potrei fare una classe dedicata visto che text-center si ripete più volte e transform-uppercase */
