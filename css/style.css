@@ -18,3 +18,7 @@ img{
     background-color: rgb(0, 255, 0);
     border: 1px solid black;
 }
+
+section{
+    padding: 60px 0;
+}
