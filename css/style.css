@@ -55,4 +55,12 @@ section{
     --bs-btn-disabled-border-color: #5c9489;
 }
 
+.bg-footer{
+    background-color: rgb(58, 84, 109);
+}
+
+.bg-footer-alt{
+    background-color: rgb(44, 62, 80);
+}
+
 /* potrei fare una classe dedicata visto che text-center si ripete più volte e transform-uppercase */
