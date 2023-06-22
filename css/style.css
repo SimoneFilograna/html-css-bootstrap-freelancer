@@ -3,12 +3,12 @@
     --bs-primary-rgb: 26, 188, 156;
 }
 
-.box{
+/* .box{
     width: 100%;
     min-height: 100px;
     background-color: red;
     border: 1px solid black;
-}
+} */
 
 section{
     padding: 60px 0;
