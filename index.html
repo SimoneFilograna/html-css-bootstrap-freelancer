@@ -13,8 +13,30 @@
 
     <body>
         <header>
-            <nav>
-
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-light active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 
@@ -179,16 +201,16 @@
 
 
         <footer>
-            <section class="bg-footer text-light p-4">
+            <section class="bg-footer text-light p-4 pt-5">
                 <div class="container text-center">
-                    <div class="row justify-content-center align-items-md-center g-4">
-                        <div class="col-10 col-md-3">
+                    <div class="row justify-content-center align-items-baseline g-4 g-md-0">
+                        <div class="col-md-4">
                             <div class="box">
-                                <span class="d-block">LOCATION</span>
-                                <Span class="px-4">2215 John Daniel Drive Clark, MO 54243</Span>
+                                <span>LOCATION</span>
+                                <p class="px-4 low-size-footer">2215 John Daniel Drive Clark, MO 54243</p>
                             </div>
                         </div>
-                        <div class="col-10 col-md-3">
+                        <div class="col-md-4">
                             <div class="box">
                                 <span>AROUND THE WEB</span>
                                 <div class="icon-footer">
@@ -199,10 +221,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-10 col-md-3">
+                        <div class="col-md-4">
                             <div class="box">
-                                <span class="d-block">ABOUT FREELANCER</span>
-                                <p class="px-4">Freelance iS a free to use, open source Bootstrap
+                                <span>ABOUT FREELANCER</span>
+                                <p class="low-size-footer">Freelance iS a free to use, open source Bootstrap
                                     theme created by <a href="#">Start Bootstrap</a> </p>
                             </div>
                         </div>
@@ -214,7 +236,7 @@
                     <div class="row justify-content-center">
                         <div class="col-10">
                             <div class="box">
-                                <span class="d-inline-block py-4">Copyright Your website 2019</span>
+                                <p class="py-1 low-size-footer">Copyright Your website 2019</p>
                             </div>
                         </div>
                     </div>

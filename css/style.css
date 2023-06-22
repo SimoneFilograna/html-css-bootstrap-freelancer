@@ -63,4 +63,11 @@ section{
     background-color: rgb(44, 62, 80);
 }
 
+.low-size-footer{
+    font-size: 12px;
+}
+
+
+
+
 /* potrei fare una classe dedicata visto che text-center si ripete più volte e transform-uppercase */
